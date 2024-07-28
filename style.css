@@ -19,7 +19,7 @@ header img{
     width: 100px;
 }
 
-.container{
+.container, .output{
     margin: 20px 50px;
 }
 .description{
@@ -79,6 +79,19 @@ header img{
     background-color: #050C25;
     color: rgb(180, 166, 166);
     cursor: pointer;
+}
+
+.question, .answer{
+    display: flex;
+    margin: 50px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.output i {
+    margin-right: 20px;
+    font-size: 22px;
 }
 
 

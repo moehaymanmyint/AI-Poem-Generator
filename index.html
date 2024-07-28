@@ -9,6 +9,8 @@
       src="https://kit.fontawesome.com/fceb68fb66.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <header>
@@ -21,28 +23,28 @@
         Discover the Beauty of Arabic Poetry with QasidaGen
       </p>
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 given-question" id="first-question">
           <p>
             "Write me a poem that expresses feelings of love and separation,
             portraying the pain of distance and the longing for reunion."
           </p>
         </div>
-        <div class="col-4">
+        <div class="col-4 given-question" id="second-question">
           <p>
-            "Write me a poem that expresses feelings of love and separation,
-            portraying the pain of distance and the longing for reunion."
+            "Create a poem that describes the beauty of nature, highlighting the
+            details of the earth, sky, and seas."
           </p>
         </div>
-        <div class="col-4">
+        <div class="col-4 given-question" id="third-question">
           <p>
-            "Write me a poem that expresses feelings of love and separation,
-            portraying the pain of distance and the longing for reunion."
+            "Compose a poem about courage and heroism, depicting the bravery of
+            ancestors and the struggles of battles."
           </p>
         </div>
       </div>
     </div>
     <!-- Search -->
-    <div class="search-box">
+    <form class="search-box">
       <input
         type="text"
         name=""
@@ -53,7 +55,7 @@
       <button type="submit" class="search-btn">
         <i class="fa-solid fa-arrow-right-long"></i>
       </button>
-    </div>
+    </form>
   </body>
   <script src="app.js"></script>
 </html>
