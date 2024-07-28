@@ -7,20 +7,22 @@ body{
     background: rgb(6, 9, 34);
     background: radial-gradient(circle, rgba(6, 9, 34, 1) 0%, rgba(8, 24, 62, 1) 100%);   
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Barlow", sans-serif;
+    font-weight: 450;
     padding-bottom: 120px;
 }
 header{
-    margin: 10px 20px;
+    margin: 0 25px;
     display: flex;
     align-items: center;
 }
 header img{
     width: 100px;
+    margin-right: 20px;
 }
 
 .container, .output{
-    margin: 20px 50px;
+    margin: 10px 50px;
 }
 .description{
     font-size: 35px;
@@ -58,13 +60,25 @@ header img{
     left: 0;
     right: 0;
 }
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 0 15px 0;
+}
+footer a {
+    color: rgb(180, 166, 166);
+}
 .search{
     padding: 20px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border: none;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Barlow", sans-serif;
+    font-weight: 450;
     display: block;
     width: 100%;
     background-color: #050C25;
@@ -96,7 +110,11 @@ header img{
     font-size: 22px;
 }
 
-
+.output p, .output pre{
+    font-family: "Barlow", sans-serif;
+    font-weight: 450;
+    font-size: 20px;
+}
 
 
 

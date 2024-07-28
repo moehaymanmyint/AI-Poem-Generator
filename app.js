@@ -106,7 +106,8 @@ givenQuestion.forEach((givenQuestions) => {
 
 // API
 let apiKey = '03aa5321feb0a48eoca7a4tede1f2bb1';
-let context = "Create 4 line poem text for each Arbic and along with English Translation which is easy to understand.And include a symbol & Emoji related a poem. Bold the title using </b> and do not add number";
+let context = `Create 4 line poem text for each Arbic and along with English Translation which is easy to understand. 
+              And include a symbol & Emoji related a poem at the end of the last text. Do not add number.`;
 
 // For Searching 
 let userInput = document.querySelector(".search-box");
