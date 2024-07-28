@@ -12,7 +12,7 @@ function searchPoem(event) {
         </div>
         <div class="answer">
           <i class="fa-solid fa-wand-sparkles"></i>
-          <pre class="answer-output">Processing to generate...⌛</pre>
+          <pre class="answer-output">Generating a poem for you...⌛</pre>
         </div>
       </div>`;
 
@@ -20,7 +20,7 @@ function searchPoem(event) {
   inputValue.value = '';
 
   new Typewriter('.answer-output', {
-    strings: "Processing to generate...⌛",
+    strings: "Generating a poem for you...⌛",
     autoStart: true,
     cursor: "",
     delay: 20,
@@ -46,8 +46,8 @@ function processingAnswer(event) {
   console.log(clickedQuestion.id);
   let givenPrompt = "";
   if (clickedQuestion.id === "first-question") {
-    givenPrompt += `Write me a poem that expresses feelings of love and separation,
-                    portraying the pain of distance and the longing for reunion.`;
+    givenPrompt += `Write a poem about the power of hope, 
+                    describing how hope can light the way in the toughest times.`;
   }
   if (clickedQuestion.id === "second-question") {
     givenPrompt += `Create a poem that describes the beauty of nature, highlighting the
@@ -67,12 +67,12 @@ function processingAnswer(event) {
       </div>
       <div class="answer">
         <i class="fa-solid fa-wand-sparkles"></i>
-        <pre class="answer-output">Processing to generate...⌛</pre>
+        <pre class="answer-output">Generating a poem for you...⌛</pre>
       </div>
     </div>`;
 
   new Typewriter('.answer-output', {
-    strings: "Processing to generate...⌛",
+    strings: "Generating a poem for you...⌛",
     autoStart: true,
     cursor: "",
     delay: 20,
@@ -106,7 +106,7 @@ givenQuestion.forEach((givenQuestions) => {
 
 // API
 let apiKey = '03aa5321feb0a48eoca7a4tede1f2bb1';
-let context = "Create a short parallel poem text in English and Arabic which is easy to understand.";
+let context = "Create 4 line poem text for each Arbic and along with English Translation which is easy to understand.And include a symbol & Emoji related a poem. Bold the title using </b> and do not add number";
 
 // For Searching 
 let userInput = document.querySelector(".search-box");

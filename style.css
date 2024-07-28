@@ -38,6 +38,8 @@ header img{
     padding: 30px;
     border-radius: 25px;
     font-size: 22px;
+    text-align: justify;
+    line-height: 38px;
     cursor: pointer;
     transition: 0.5s;
     box-shadow: rgba(37, 37, 221, 0.2) 0px 7px 29px 0px;
@@ -83,7 +85,7 @@ header img{
 
 .question, .answer{
     display: flex;
-    margin: 50px;
+    margin: 40px;
     text-align: justify;
     font-size: 18px;
     line-height: 30px;
@@ -93,6 +95,8 @@ header img{
     margin-right: 20px;
     font-size: 22px;
 }
+
+
 
 
 
